@@ -171,7 +171,7 @@ section h3.section-subheading {
     border: none;
   transition: all 0.3s ease;
   padding: 15px 60px;
-  height: 120px;
+  height: 90px;
   }
 
   #mainNav .navbar-brand {
@@ -206,7 +206,7 @@ header.masthead {
   background-position: center center;
   background-size: cover;
   position: relative;
-  margin-top: 120px;
+  margin-top: 70px;
 }
 
 header.masthead::before {
@@ -644,7 +644,7 @@ footer span.copyright {
   width: 280px;
   transition: transform 0.1s ease;
   margin-top: -10px;
-  margin-left: -320px;
+  margin-left: -280px;
 }
 
 .img-da-nav-bar:hover {
