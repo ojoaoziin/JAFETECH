@@ -51,7 +51,7 @@ section {
 
 section h2.section-heading {
   font-size: 36px;
-  margin-top: 0; 
+  margin-top: 0;
   margin-bottom: 20px;
 }
 
@@ -160,7 +160,7 @@ section h3.section-subheading {
 
 #mainNav .navbar-nav .nav-item .nav-link:hover {
   transform: scale(1.05);
-  color: #00a6ff; 
+  color: #00a6ff;
 }
 
 
@@ -200,7 +200,7 @@ section h3.section-subheading {
 header.masthead {
   text-align: center;
   color: var(--text-light);
-  background-image: url(../img/licitacoes.png) !important; 
+  background-image: url(../img/licitacoes.png) !important;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -594,17 +594,17 @@ footer span.copyright {
     padding-top: 15px;
     background-color: rgba(33, 37, 41, 0.95);
   }
-  
+
   #mainNav .navbar-nav .nav-item .nav-link {
     padding: 0.5em 0;
   }
-  
+
   .benefit-item {
     width: 100%;
     max-width: 280px;
     margin: 0 auto 30px;
   }
-  
+
   .equipe-container {
     padding: 30px 15px;
   }
@@ -614,24 +614,24 @@ footer span.copyright {
   section h2.section-heading {
     font-size: 28px;
   }
-  
+
   section h3.section-subheading {
     font-size: 16px;
     margin-bottom: 40px;
   }
-  
+
   .process-item img {
     max-width: 120px;
   }
-  
+
   .process-item h4 {
     font-size: 20px;
   }
-  
+
   .process-item h5 {
     font-size: 18px;
   }
-  
+
   .integrante {
     width: 100%;
     max-width: 200px;
@@ -641,10 +641,10 @@ footer span.copyright {
 
 /* Ajustes para a logo na barra de navegação */
 .img-da-nav-bar {
-  width: 280px;
+  /* width: 280px; */
   transition: transform 0.1s ease;
-  margin-top: -10px;
-  margin-left: -280px;
+  /* margin-top: -10px; */
+  /* margin-left: -280px; */
 }
 
 .img-da-nav-bar:hover {

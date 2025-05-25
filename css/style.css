@@ -608,17 +608,17 @@ footer span.copyright {
     padding-top: 15px;
     background-color: rgba(33, 37, 41, 0.95);
   }
-  
+
   #mainNav .navbar-nav .nav-item .nav-link {
     padding: 0.5em 0;
   }
-  
+
   .benefit-item {
     width: 100%;
     max-width: 280px;
     margin: 0 auto 30px;
   }
-  
+
   .equipe-container {
     padding: 30px 15px;
   }
@@ -628,24 +628,24 @@ footer span.copyright {
   section h2.section-heading {
     font-size: 28px;
   }
-  
+
   section h3.section-subheading {
     font-size: 16px;
     margin-bottom: 40px;
   }
-  
+
   .process-item img {
     max-width: 120px;
   }
-  
+
   .process-item h4 {
     font-size: 20px;
   }
-  
+
   .process-item h5 {
     font-size: 18px;
   }
-  
+
   .integrante {
     width: 100%;
     max-width: 280px;
@@ -657,7 +657,7 @@ footer span.copyright {
 .img-da-nav-bar {
   width: 180px;
   transition: transform 0.3s ease;
-  margin-top: -10px;
+  /* margin-top: -10px; */
 }
 
 .img-da-nav-bar:hover {

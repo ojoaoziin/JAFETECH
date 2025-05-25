@@ -21,7 +21,7 @@
   <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
-  
+
   <!-- Custom styles for this template -->
   <link href="css/style.min.css" rel="stylesheet">
 </head>
@@ -29,26 +29,30 @@
 <body id="page-top">
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav" style="position: absolute; top:0; background-color:#0057A3">
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav" style="position: fixed; top:0; background-color:#0057A3">
     <div class="container">
       <!-- LOGO totalmente à esquerda -->
-      <a class="navbar-brand js-scroll-trigger mr-auto" href="index.html#page-top">
-        <img class="img-da-nav-bar" src="img/optimized/logo.png" href="index.html#page-top" alt="JAFETECH - Technology" style="margin-left: -100px; margin-top:20px">
+      <!-- <a class="navbar-brand" href="#">
+        <img src="https://getbootstrap.com/docs/4.1/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+        Bootstrap
+      </a> -->
+      <a class="navbar-brand js-scroll-trigger" href="index.html#page-top">
+        <img class="img-da-nav-bar d-inline-block align-top" width="100vw" src="img/optimized/logo.png" href="index.html#page-top" alt="JAFETECH - Technology" >
       </a>
 
       <!-- Botão do menu para mobile -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" style="width:50px; margin-top: -50px;">
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" style="width:50px;">
         <span></span>
         <i class="fa fa-bars"></i>
       </button>
 
       <!-- MENU -->
-      <div class="collapse navbar-collapse" id="navbarResponsive" style="margin-top: -10px;">
+      <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto text-uppercase">
-          <li class="nav-item" style="margin-left: -200px;">
-           
-          </li>
+          <!-- <li class="nav-item">
+
+          </li> -->
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="/index.html#benefits">BENEFÍCIOS</a>
           </li>
@@ -71,7 +75,7 @@
     <div class="container">
       <div class="intro-text">
         <div class="intro-heading text-uppercase fade-in">Processos
-          <br> 
+          <br>
           LICITATÓRIOS</div>
       </div>
     </div>
@@ -89,7 +93,7 @@
       </div>
       <div class="row">
         <div class="col-lg-12">
-          <form id="contactForm" name="sentMessage" novalidate="novalidate">
+          <form id="contactForm" name="sentMessage" novalidate="novalidate" >
             <div class="row">
               <div class="col-md-6">
                 <div class="form-group">
@@ -167,7 +171,7 @@
   </script>
   <!--  Voltar ao Topo -->
 
-  <!--  WHATSAPP -->  
+  <!--  WHATSAPP -->
   <div class="whatsapp-container">
     <div class="mensagem-ajuda">Precisa de ajuda?</div>
     <a href="https://wa.me/5581993120530" target="_blank" class="whatsapp-icon">
@@ -175,7 +179,7 @@
     </a>
   </div>
   <!--  WHATSAPP -->
-  
+
   <!-- Cookie Banner -->
   <div id="cookie-banner">
     <span>
@@ -192,7 +196,7 @@
       document.getElementById('cookie-banner').style.display = 'none';
       localStorage.setItem('cookiesAceitos', 'true');
     }
-    
+
     // Verificar se os cookies já foram aceitos
     window.onload = function() {
       if (localStorage.getItem('cookiesAceitos') === 'true') {
@@ -211,14 +215,17 @@
 
   <!-- Contact form JavaScript -->
   <script src="js/jqBootstrapValidation.js"></script>
-  <script src="js/contact_me.min.js"></script>
+  <script src="js/contact_me.js"></script>
 
   <!-- Custom scripts for this template -->
   <script src="js/agency.min.js"></script>
-  
+
   <!-- Enhanced functionality script -->
+  <!--
+  Esse arquivo tá fazendo a mesma coisa que o contact_me.js, então está entrando em conflito
+  -->
   <script src="js/enhanced-functions.js"></script>
-  
+
   <!-- Performance optimizations -->
   <script src="js/performance-optimizations.js"></script>
 
