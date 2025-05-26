@@ -31,7 +31,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav" style="position: fixed; top:0; background-color:#0057A3">
     <div class="container">
-      <!-- LOGO totalmente à esquerda -->
+      <!-- LOGO -->
       <!-- <a class="navbar-brand" href="#">
         <img src="https://getbootstrap.com/docs/4.1/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
         Bootstrap
@@ -388,32 +388,6 @@
     </a>
   </div>
   <!--  WHATSAPP -->
-
-  <!-- Cookie Banner -->
-  <div class="cookie-banner" id="cookie-banner">
-        <p>Este site utiliza cookies para melhorar a experiência de navegação. Ao continuar, você concorda com o uso de cookies.</p>
-        <button class="accept-btn" onclick="acceptCookies()">Eu Aceito</button>
-        <a href="/politica-de-cookies" class="more-info">Mais informações</a>
-    </div>
-
-    <script>
-        // Função para mostrar o banner se o usuário não tiver aceitado cookies
-        function checkCookieConsent() {
-            const cookiesAccepted = localStorage.getItem('cookiesAccepted');
-            if (!cookiesAccepted) {
-                document.getElementById('cookie-banner').style.display = 'block';
-            }
-        }
-
-        // Função para aceitar os cookies
-        function acceptCookies() {
-            localStorage.setItem('cookiesAccepted', 'true');
-            document.getElementById('cookie-banner').style.display = 'none';
-        }
-
-        // Chama a função ao carregar a página
-        checkCookieConsent();
-    </script>
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>

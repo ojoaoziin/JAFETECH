@@ -180,31 +180,6 @@
   </div>
   <!--  WHATSAPP -->
 
-  <!-- Cookie Banner -->
-  <div id="cookie-banner">
-    <span>
-      Esse site utiliza <strong>cookies</strong> para oferecer uma melhor experiência de navegação, analisar como você interage em nosso site, otimizar o desempenho e personalizar o conteúdo. Ao utilizar este site, você concorda com o uso de cookies.
-      Saiba mais em <a href="/politica-de-privacidade">Política de Privacidade</a>.
-    </span>
-    <button onclick="aceitarCookies()">
-      Eu aceito
-    </button>
-  </div>
-
-  <script>
-    function aceitarCookies() {
-      document.getElementById('cookie-banner').style.display = 'none';
-      localStorage.setItem('cookiesAceitos', 'true');
-    }
-
-    // Verificar se os cookies já foram aceitos
-    window.onload = function() {
-      if (localStorage.getItem('cookiesAceitos') === 'true') {
-        document.getElementById('cookie-banner').style.display = 'none';
-      }
-    }
-  </script>
-
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
