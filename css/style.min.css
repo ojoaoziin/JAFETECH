@@ -200,7 +200,7 @@ section h3.section-subheading {
 header.masthead {
   text-align: center;
   color: var(--text-light);
-  background-image: url(../img/licitacoes.png) !important;
+  background-image: url(../img/licitacoess.png) !important;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -470,15 +470,15 @@ footer span.copyright {
 /* WhatsApp */
 .whatsapp-container {
   position: fixed;
-  bottom: 30px;
-  left: 30px;
+  bottom: 300px;
+  right: 8px;
   z-index: 99;
 }
 
 .mensagem-ajuda {
   display: none;
   position: absolute;
-  left: 70px;
+  right: 70px;
   bottom: 10px;
   background-color: var(--text-light);
   color: var(--text-color);
